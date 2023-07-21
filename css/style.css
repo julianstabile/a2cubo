@@ -71,6 +71,10 @@ body {
     height: 70vw;
 }
 
+.navbar-collapse {
+    text-align: center ;
+}
+
 @media screen and (min-width: 961px) {
     .carousel-inner {
         height: 65vh;
@@ -81,10 +85,6 @@ body {
 
 }
 
-.navbar-collapse {
-    text-align: center ;
-}
-
 /*fin slider*/
 
 /*servicios*/
@@ -92,12 +92,18 @@ body {
 .home-servicios {
     padding: 5%;
     margin: 5%;
-    text-align: center; 
+    width: 370px;
+    display: inline-block;
     background-color: #ffffff67;
 }
 
 .home-servicios p {
     text-align: justify;
+}
+
+.servicios-home {
+    text-align: center;
+
 }
 
 .img-servicios-home {
@@ -119,11 +125,29 @@ body {
     
 }
 
-@media screen and (min-width: 961px) {
+@media screen and (min-width: 600px) {
     .home-servicios {
         display: inline-block;
-        width: 22%;
+        width: 300px;
     }
+
+    .home-servicios {
+        padding: 1%;
+        margin: 0.5%;
+    }
+
+    
+
+    ..link-servicios {
+        width: 100%;
+    }
+
+    .servicios-home {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 
 /*fin servicios*/
@@ -132,7 +156,9 @@ body {
 .nosotros-home {
     text-align: center;
     padding-bottom: 3%;
-    margin: 5%;
+    margin: 1% 5%;
+    padding: 5%;
+    background-color: #e0e0e0;
 }
 
 .img-nosotros-home {
@@ -147,6 +173,63 @@ body {
 .boton {
     padding: 2% 8%;
     border: none;
+}
+
+@media screen and (min-width: 1023px) { 
+    .nosotros-home {
+        display: grid;
+        grid-template-columns: 100px 1fr 1fr 1fr;
+        grid-template-rows: 60px 60px 1fr 1fr 45px;
+        padding: 2%;
+        margin: 2% 10%;
+        grid-template-areas: 
+        "t t t t"
+        "st st img img"
+        "p p img img"
+        "p p img img"
+        "btn btn img img";
+    }
+
+    .img-nosotros-home {
+        grid-area: img;
+        padding-bottom: 0;
+        grid-row-end: none;
+    }
+
+    .p-nosotros-home {
+        grid-area: p;
+        padding: 10px 20px 0px 0px;
+    }
+
+    .boton {
+        grid-area: btn;
+    }
+
+    .titulo-nosotros {
+        grid-area: t;
+        font-weight: 900;
+    }
+
+    .st {
+        grid-area: st;
+        justify-self: left
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .nosotros-home {
+        display: grid;
+        grid-template-columns: 1fr 1fr 245px 245px;
+        grid-template-rows: 55px 52px auto 45px;
+        grid-template-areas:
+            "t t t t"
+            "st st img img"
+            "p p img img"
+            "btn btn img img";
+    }
+
+
 }
 
 /*fin nosotros*/
