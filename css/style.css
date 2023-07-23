@@ -260,7 +260,8 @@ header {
 
     .st {
         grid-area: st;
-        justify-self: left
+        justify-self: left;
+        margin: 0"";
     }
     
 }
