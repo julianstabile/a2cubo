@@ -630,8 +630,14 @@ header {
 
 /*pagina nosotros*/
 
+.nos-pag {
+    background-color: #e0e0e0;
+    box-shadow: none;
+}
+
 .nuestro-origen {
-    width: 80%;
+    margin: 5%;
+    padding: 5%;
     text-align: center;
 }
 
@@ -645,49 +651,29 @@ header {
     margin-left: 2%;
 }
 
-@media screen and (min-width: 768px){
-    
-    .nuestro-origen {
-        width: 80%;
-        margin-left: 10%;
-        display: inline-block;
-    }
-
-
-    .historia-nosotros {
-        text-align: justify;
-    }
-
-    .img-nosotros {
-        width: 40%;
-        float: right;
-        margin-left: 2%;
-    }
-
-}
-.equipo-pag {
-    width: 80%;
-    margin-left: 10%;
+.premios {
     text-align: center;
 }
 
-.equipo-pag div {
-    width: 24%;
+.cont-prem {
     display: inline-block;
-    margin: 1%;
+    width: 350px;
+    text-align: center;
+    margin: 0;
+    
 }
 
-.equipo-pag div h3 {
+.estadisticas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
 }
 
-.equipo-pag div h4 {
-    text-align: center;
-    color: #797979;
-}
-
-.equipo-pag div p {
-    text-align: justify;
+.est-cont {
+    width: 350px;
+    margin: 2%;
+    font-size: 150%;
 }
 
 
@@ -695,37 +681,10 @@ header {
     width: 100%;
 }
 
-.premios {
-    width: 80%;
-    margin-left: 10%;
-    text-align: center;
-    
-}
-
-.premios div {
-    width: 40%;
-    display: inline-block;
-    margin: 1%;
-}
-
-
 .img-premios {
     width: 70%;
     background-color: #ffffff;
     margin-top: 10px;
-}
-
-.estadisticas {
-    width: 80%;
-    margin: 10%;
-    text-align: center;
-}
-
-.estadisticas div {
-    display: inline-block;
-    margin: 2%;
-    width: 25%;
-    font-size: 150%;
 }
 
 .estadisticas div p {
@@ -735,4 +694,19 @@ header {
 
 }
 
+@media screen and (min-width: 600px){
+    .nos-pag {
+        width: 90%;
+    }
+    .img-nosotros {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1023px){
+    .img-nosotros {
+        float: right;
+        padding:2%;
+    }
+}
 /*fin pagina nosotros*/
