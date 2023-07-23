@@ -710,3 +710,63 @@ header {
     }
 }
 /*fin pagina nosotros*/
+
+/*pagina prensa*/
+
+.pagina-prensa {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    background-color: #ffffff;
+    padding: 2%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.revista {
+    margin: 5%;
+    padding: 2%;
+}
+
+.img-prensa {
+    width: 13%;
+    float: left;
+    margin-right: 2%;
+}
+
+/*fin pagina prensa*/
+
+/*pagina contacto*/
+
+.contacto-datos {
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+.datos-contacto {
+    width: 30%;
+    float: left;
+}
+
+.formulario {
+    width: 30%;
+    float: right;
+}
+
+.contacto-datos div ul {
+    list-style: none;
+}
+
+.mapa {
+    margin-top: 5%;
+}
+
+.contacto-datos {
+    display: inline-block;
+}
+
+.form-input {
+    width: 100%;
+    margin: 1%;
+}
