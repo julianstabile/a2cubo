@@ -1,0 +1,116 @@
+/*nosotros*/
+
+.nosotros--home {
+    margin-top: 3%;
+    box-shadow: 1px 20px 20px 0px #0000002b;
+    text-align-last: center;
+
+
+    & div {
+        background-color: #e0e0e0;
+        margin-bottom: 60px;
+    }
+
+    &--div {
+        text-align: center;
+        padding-bottom: 3%;
+        margin: 1% 5%;
+        padding: 5%;
+        background-color: #e0e0e0;
+
+        &--img {
+            width: 100%;
+            padding-bottom: 3%;
+        }
+
+        &--parrafo {
+            text-align: justify;
+        }
+
+        &--titulo {
+            font-weight: 900;
+            margin-bottom: 35px;
+        }
+
+        &--subtitulo {
+            margin: 20px 0px 10px 0px;
+        }
+    }
+}    
+
+.link-btn {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    .nosotros--home--div--img {
+        width: 500px;
+    }
+}
+
+
+@media screen and (min-width: 1023px) { 
+    .nosotros--home--div {
+        display: grid;
+        grid-template-columns: 100px 1fr 1fr 1fr;
+        grid-template-rows: 60px 60px 1fr 1fr 45px;
+        padding: 2%;
+        margin: 2% 10%;
+        grid-template-areas: 
+        "t t t t"
+        "st st img img"
+        "p p img img"
+        "p p img img"
+        "btn btn img img";
+    
+        &--img {
+            grid-area: img;
+            padding-bottom: 0;
+            grid-row-end: none;
+        }
+
+        &--parrafo {
+            grid-area: p;
+            padding: 10px 20px 0px 0px;
+        }
+
+        &--titulo {
+            grid-area: t;
+            font-weight: 900;
+        }
+
+        &--subtitulo {
+            grid-area: st;
+            justify-self: left;
+            margin: 1px;
+        }
+    }
+
+    .link-btn {
+        grid-area: btn;
+        grid-row: 5;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nosotros--home--div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 245px 245px;
+        grid-template-rows: 55px 52px auto 45px;
+        grid-template-areas:
+            "t t t t"
+            "st st img img"
+            "p p img img"
+            "btn btn img img";
+    }
+    .link-btn {
+        grid-area: btn;
+        grid-row: 4/6;
+    }
+
+
+}
+
+
+/*fin nosotros home*/

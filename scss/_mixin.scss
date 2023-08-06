@@ -1,0 +1,12 @@
+@mixin wpm ($width, $padding, $margin) {
+    width: $width;
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin flex ($flex, $wrap, $justify, $align) {
+    display: $flex;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-content: $align;
+}

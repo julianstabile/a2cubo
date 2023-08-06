@@ -1,0 +1,29 @@
+/*slider*/
+
+.slider {
+    padding-left: 0;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    height: 70vw;
+}
+
+.carousel.pointer-event {
+    height: 70vw;
+}
+
+
+@media screen and (min-width: 961px) {
+    .carousel-inner {
+        height: 65vh;
+    }
+    .carousel.pointer-event {
+        height: 65vh;
+    }
+
+}
+
+/*fin slider*/

@@ -1,0 +1,135 @@
+/*proyectos*/
+.proyectos--home--pc {
+    display: none;
+}
+.proyectos-home-mobile {
+    text-align: -webkit-center;
+}
+
+.card {
+    --bs-card-border-width: var;
+
+    &-title {
+        font-weight: 600;
+    }
+
+    &-img-overlay {
+        top: auto;
+        text-shadow: -2px -2px 11px black;
+    }
+
+    &-body {
+        margin: 0;
+        text-align: center;
+    }
+
+    &-text:last-child {
+        color: black;
+    }
+}
+
+
+.btn {
+    --bs-btn-padding-x: 0;
+    --bs-btn-padding-y: 0;
+    border: none;
+}
+
+.text-bg-dark {
+    margin: 5% 5% 0% 5%;
+    background-color: white !important;
+
+}
+
+.boton-proyectos {
+    @include wpm (300px, 4% 1%, 5% 5% 10% 5%);
+    border-color: #1b0404;
+    background-color: #e9e8e8;
+    border-radius: 2%;
+    border-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (min-width: 600px) {
+
+    .proyectos-home-mobile {
+        display: none;
+    }
+
+    .proyectos--home--pc {
+        display: block;
+        text-align: -webkit-center;
+
+        &--card {
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            width: 375px;
+            margin: 1%;
+        
+            &--img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+                border-radius: 3%;
+            }
+
+            &--parrafo {
+                display: none; 
+                top: 190px;
+                right: 5%;
+                left: 5%;
+                position: absolute;
+                color: #e9e8e8;
+                text-shadow: -2px -2px 11px black;
+            }
+
+            &:hover > .proyectos--home--pc--card--parrafo {
+                display:block;
+                top: 190px;
+                right: 5%;
+                left: 5%;
+                position: absolute;
+                color: #e9e8e8;
+                text-shadow: -2px -2px 11px black;
+            }
+
+            &--titulo {
+                position: absolute;
+                top: 190px;
+                right: 5%;
+                left: 5%;
+                color: #e9e8e8;
+                text-shadow: -2px -2px 11px black;
+                font-weight: bold;
+            }
+
+            &:hover > .proyectos--home--pc--card--titulo{
+                position: absolute;
+                top: 50%;
+                left: 10%;
+                right: 10%;
+                transition: 0.7s;
+                color: #e9e8e8;
+                text-shadow: -2px -2px 11px black;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+    .boton-proyectos {
+        display: block;
+        @include wpm (300px, 1% 1%, 3%);
+    
+        &:hover {
+            background-color: #8b8b8b;
+            color: #ffffff;
+            transition: 0.3s;
+        }
+    }
+}
+
+/*fin proyectos*/

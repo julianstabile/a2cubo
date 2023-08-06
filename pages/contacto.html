@@ -37,67 +37,73 @@
         </nav>
     </header>
     <main>
-        <h1>Contacto</h1>
-        <section class="contacto-datos">
-            <div class="datos-contacto">
-                <h2>Datos de contacto</h2>
-                <ul>
-                    <li>Telefono: 1133699523</li>
-                    <li>Mail: info@a2cubo.com.ar</li>
-                    <li>Direccion: <a href="https://goo.gl/maps/sqXPWxYHuHoZoPHFA"> calle falsa 123</a> </li>
-                    <li>Horario: 9:00 a 18:00 (ARG)</li>
-                </ul>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.858048325911!2d-58.76169269999999!3d-34.658287699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9512dd8aeb59%3A0xc78ff3fe9b8c9677!2sCalle%20falsa%20123%2C%20Paso%20del%20Rey%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1687148403394!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
-            </div>
+        <h1 class="titulo--seccion">Contacto</h1>
+        <section class="Contactanos">
             <div class="formulario">
                 <form action="" method="post">
-                    <div>
-                        <label for="Nombre">Nombre</label>
-                        <input type="text" name="Nombre" id="Nombre" placeholder="Juan Perez" required class="form-input">
+                    <div class="formulario--contenedor">
+                        <label for="Nombre" class="formulario--etiqueta">Nombre</label>
+                        <input type="text" name="Nombre" id="Nombre" placeholder="Juan Perez" required class="formulario--input">
                     </div>
-                    <div>
-                        <label for="Mail">Correo electronico</label>
-                        <input type="email" name="Correo electronico" id="Mail" placeholder="juanperez@gmail.com" required class="form-input">
+                    <div class="formulario--contenedor">
+                        <label for="Mail" class="formulario--etiqueta">Correo electronico</label>
+                        <input type="email" name="Correo electronico" id="Mail" placeholder="juanperez@gmail.com" required class="formulario--input">
                     </div>
-                    <div>
-                        <label for="Telefono">Telefono</label>
-                        <input type="number" name="Telefono" id="Telefono" placeholder="1133699523" required class="form-input">
+                    <div class="formulario--contenedor">
+                        <label for="Telefono" class="formulario--etiqueta">Telefono</label>
+                        <input type="number" name="Telefono" id="Telefono" placeholder="1133699523" required class="formulario--input">
                     </div>
-                    <div>
-                        <label for="Consulta">Consulta</label>
-                        <textarea name="Consulta" id="Consutla" cols="30" rows="10" placeholder="escribe tu consulta aqui..." required class="form-input"></textarea>
+                    <div class="formulario--contenedor">
+                        <label for="Consulta" class="formulario--etiqueta">Consulta</label>
+                        <textarea name="Consulta" id="Consutla" cols="30" rows="10" placeholder="escribe tu consulta aqui..." required class="formulario--input"></textarea>
                     </div>
-                    <input type="submit" name="Enviar" id="Enviar">
+                    <div class="formulario--boton">
+                        <input type="submit" name="Enviar" id="Enviar" class="boton">
+                    </div>
                 </form>
+            </div>
+            <section class="datos--contacto">
+                <div class="datos--contacto--contenedor">
+                    <h2 class="titulo--seccion">Datos de contacto</h2>
+                    <ul class="datos--contacto--contenido">
+                        <li>Telefono: 1133699523</li>
+                        <li>Mail: info@a2cubo.com.ar</li>
+                        <li>Direccion: <a href="https://goo.gl/maps/sqXPWxYHuHoZoPHFA"> calle falsa 123</a> </li>
+                        <li>Horario: 9:00 a 18:00 (ARG)</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.858048325911!2d-58.76169269999999!3d-34.658287699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9512dd8aeb59%3A0xc78ff3fe9b8c9677!2sCalle%20falsa%20123%2C%20Paso%20del%20Rey%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1687148403394!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa--contenido"></iframe>
             </div>
         </section>
     </main>
     <footer>
-        <article class="footer-style">
-            <a href="index.html"> <img src="../assets/logo-a2cubo-oscuro.png" alt="A2 CUBO" class="img-logo-footer"> </a>
-            <div class="footer-contenedor">
-                <h2 class="titulo-footer">MAPA DEL SITIO</h2>
+        <article class="footer">
+            <a href="../index.html"> <img src="../assets/logo-a2cubo-oscuro.png" alt="A2 CUBO" class="footer--logo"> </a>
+            <div class="footer--contenedor">
+                <h2 class="footer--contenedor--titulo">MAPA DEL SITIO</h2>
                     <nav>
                         <ul class="flex-column nav">
                             <li class="footer-li"> <a href="../index.html" class="footer-li">Inicio</a> </li>
-                            <li class="footer-li"> <a href="servicios.html" class="footer-li">Servicios</a> </li>
-                            <li class="footer-li"> <a href="nosotros.html" class="footer-li">Nosotros</a> </li>
-                            <li class="footer-li"> <a href="proyectos.html" class="footer-li">Proyectos</a> </li>
-                            <li class="footer-li"> <a href="prensa.html" class="footer-li">Prensa</a> </li>
-                            <li class="footer-li"> <a href="contacto.html" class="footer-li">Contacto</a> </li>
+                            <li class="footer-li"> <a href="./servicios.html" class="footer-li">Servicios</a> </li>
+                            <li class="footer-li"> <a href="./nosotros.html" class="footer-li">Nosotros</a> </li>
+                            <li class="footer-li"> <a href="./proyectos.html" class="footer-li">Proyectos</a> </li>
+                            <li class="footer-li"> <a href="./prensa.html" class="footer-li">Prensa</a> </li>
+                            <li class="footer-li"> <a href="./contacto.html" class="footer-li">Contacto</a> </li>
                         </ul>
                     </nav>
             </div>
-            <div class="footer-contenedor">
-                <h2 class="titulo-footer">REDES SOCIALES</h2>
+            <div class="footer--contenedor">
+                <h2 class="footer--contenedor--titulo">REDES SOCIALES</h2>
                 <ul class="flex-column nav">
                     <li class="footer-li"> <a href="https://www.facebook.com/" class="footer-li" target="_blank"> Facebook </a> </li>
                     <li class="footer-li"> <a href="https://www.instagram.com/" class="footer-li" target="_blank"> Instagram </a> </li>
                     <li class="footer-li"> <a href="https://ar.pinterest.com/" class="footer-li" target="_blank"> Pinterest </a> </li>
                 </ul>
             </div>
-            <div class="footer-contenedor">
-                <h2 class="titulo-footer"> CONTACTO </h2>
+            <div class="footer--contenedor">
+                <h2 class="footer--contenedor--titulo"> CONTACTO </h2>
                 <ul class="flex-column nav">
                     <li class="footer-li">Telefono: 1133699523</li>
                     <li class="footer-li">Mail: info@a2cubo.com.ar</li>
@@ -109,7 +115,7 @@
             
         </article>
         <a href="https://www.linkedin.com/in/julianstabile/" target="_blank" class="footer-li" ><p class="footer-li">Hecho por: Julian Stabile</p></a>
-</footer>
+    </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     
 </body>

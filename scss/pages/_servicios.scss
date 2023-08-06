@@ -1,0 +1,157 @@
+/*pagina servicios*/
+.boton {
+    padding: 2% 7%;
+    background-color: #e9e8e8;
+    border-radius: 2%;
+    border-style: none;
+    text-decoration: none;
+    color: black;
+    box-shadow: 4px 4px 6px 0px #00000030;
+}
+
+.pag-servicios {
+    text-align: -webkit-center;
+}
+
+.servicios--section {
+    @include flex (flex, wrap, center, inherit);
+    text-align-last: center;
+
+    &--card {
+        @include wpm (90%, 5%, 5%);
+        display: inline-block;
+        background-color:white;
+        box-shadow: -7px -5px 20px 0px #0000004a;
+        text-align: justify;
+
+        &--img { 
+            width: 100%;
+            object-fit: cover;
+            object-position: bottom;
+            height: 300px;
+            padding-bottom: 2%;
+
+        }
+
+        &--link {
+            width: 100%;
+        }
+    }
+}
+
+
+.imgi {
+    display: none;
+}
+
+.imgd {
+    display: none;
+}
+@media screen and (min-width: 600px) {
+
+    .centrar-servicios {
+        justify-content: center;
+    }
+    .servicios--section--card {
+        @include wpm (90%, 10px, 10px);
+        text-align: -webkit-center;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .serv-grid-i {
+        display: grid;
+        justify-items: start;
+        grid-template-columns: 20% 20% 25% 35%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+        "td td td td"
+        "imgi imgi pd pd"
+        "imgi imgi pd pd"
+        "imgi imgi btnd btnd";
+    }
+
+    .servicios--section--card {
+        &--img--contenedor{
+            display: none;
+        }
+    }
+
+    .servicios--section--card--p--der {
+        grid-area: pd;
+    }
+
+    .servicios--section--card--p--izq {
+        grid-area: pi;
+    }
+
+    .imgi {
+        grid-area: imgi;
+        display: block;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+    .td {
+        grid-area: td;
+        grid-column: 3/5;
+    }
+
+    .btnd {
+        grid-area: btnd;
+        grid-column: 4;
+    }
+
+    .serv-grid-d {
+        display: grid;
+        justify-items: start;
+        grid-template-columns: 30% 30% 20% 20%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+        "ti ti ti ti"
+        "pi pi imgd imgd"
+        "pi pi imgd imgd"
+        "btni btni imgd imgd"
+        ;
+    }
+
+    .imgd {
+        grid-area: imgd;
+        display: block;
+        padding-left: 20px;
+    }
+
+    .ti {
+        grid-area: ti;
+        grid-column: 1/3;
+        display: block;
+    }
+
+    .btni {
+        grid-area: btni;
+        justify-self: center;
+    }
+
+}
+
+@media screen and (min-width: 1023px) {
+
+    .servicios--section--card {
+        @include wpm (1200px, 20px, 25px);
+    }
+
+    .serv-grid-d {
+        display: grid;
+        grid-template-columns: 29% 29% 19% 19%;
+    }
+
+    .serv-grid-i {
+        display: grid;
+        grid-template-columns: 19% 19% 24% 34%;
+    }
+}
+
+
+/*fin pagina servicios*/

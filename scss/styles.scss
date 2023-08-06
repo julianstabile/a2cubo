@@ -1,0 +1,25 @@
+//general
+
+@import "./vars";
+@import "./reset";
+@import "./mixin";
+@import "./main/cabeza";
+@import "./main/footer";
+
+
+//home
+
+@import "./main/slider";
+@import "./main/home-servicios";
+@import "./main/home-nosotros";
+@import "./main/home-proyectos";
+
+//pages
+
+@import "./pages/servicios";
+@import "./pages/nosotros";
+@import "./pages/proyectos";
+@import "./pages/prensa";
+@import "./pages/contacto";
+
+
