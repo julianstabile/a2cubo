@@ -80,8 +80,8 @@
                 right: 5%;
                 left: 5%;
                 position: absolute;
-                color: #e9e8e8;
-                text-shadow: -2px -2px 11px black;
+                color: $button-color;
+                text-shadow: -2px -2px 11px $black-color;
             }
 
             &:hover > .proyectos--section--pc--card--parrafo {
@@ -90,8 +90,8 @@
                 right: 5%;
                 left: 5%;
                 position: absolute;
-                color: #e9e8e8;
-                text-shadow: -2px -2px 11px black;
+                color: $button-color;
+                text-shadow: -2px -2px 11px $black-color;
             }
 
             &--titulo {
@@ -99,8 +99,8 @@
                 top: 190px;
                 right: 5%;
                 left: 5%;
-                color: #e9e8e8;
-                text-shadow: -2px -2px 11px black;
+                color: $button-color;
+                text-shadow: -2px -2px 11px $black-color;
                 font-weight: bold;
             }
 
@@ -110,8 +110,8 @@
                 left: 10%;
                 right: 10%;
                 transition: 0.7s;
-                color: #e9e8e8;
-                text-shadow: -2px -2px 11px black;
+                color: $button-color;
+                text-shadow: -2px -2px 11px $black-color;
                 font-weight: bold;
             }
         }
@@ -123,8 +123,8 @@
         @include wpm (300px, 1% 1%, 3%);
     
         &:hover {
-            background-color: #8b8b8b;
-            color: #ffffff;
+            background-color: $button-h-color;
+            color: $white-color;
             transition: 0.3s;
         }
     }
@@ -135,7 +135,7 @@
 .mini-navbar nav ul li {
     display: inline-block;
     margin-top: 7;
-    background-color: #797979;
+    background-color: $estadisticas-color;
     padding: 0.5%;
 }
 
@@ -146,7 +146,7 @@
 
 .mini-navbar nav ul li a{
     text-decoration: none;
-    color: #ffffff;
+    color: $white-color;
 }
 
 /*fin pagina proyectos*/

@@ -34,7 +34,7 @@ label {
 .nosotros--historia, .nosotros--contenedor {
     @include wpm (90%, 5%, 5%);
     display: inline-block;
-    background-color: #ffffff67;
+    background-color: $servicios-bg-color;
     box-shadow: -7px -5px 20px 0px #0000004a;
     text-align: center;
     background-color: #e0e0e0;
@@ -46,7 +46,7 @@ label {
     margin-bottom: 3%;
 
     &--contenedor {
-        background-color: white;
+        background-color: $white-color;
         text-align-last: center;
         
         &--info p{
@@ -130,14 +130,14 @@ label {
         font-size: 150%;
 
         & p {
-            color: #797979;
+            color: $estadisticas-color;
             font-weight: bold;
             font-size: 200%;
         }
 
         &--img {
             width: 70%;
-            background-color: #ffffff;
+            background-color: $white-color;
             margin-top: 10px;
         }
     }

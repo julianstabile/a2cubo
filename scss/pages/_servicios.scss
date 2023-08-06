@@ -1,13 +1,4 @@
 /*pagina servicios*/
-.boton {
-    padding: 2% 7%;
-    background-color: #e9e8e8;
-    border-radius: 2%;
-    border-style: none;
-    text-decoration: none;
-    color: black;
-    box-shadow: 4px 4px 6px 0px #00000030;
-}
 
 .pag-servicios {
     text-align: -webkit-center;
@@ -20,7 +11,7 @@
     &--card {
         @include wpm (90%, 5%, 5%);
         display: inline-block;
-        background-color:white;
+        background-color: $white-color;
         box-shadow: -7px -5px 20px 0px #0000004a;
         text-align: justify;
 

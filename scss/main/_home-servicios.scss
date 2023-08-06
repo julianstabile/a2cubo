@@ -6,7 +6,7 @@
     &--card {
         @include wpm (90%, 5%, 5%);
         display: inline-block;
-        background-color: #ffffff67;
+        background-color: $servicios-bg-color;
         box-shadow: -7px -5px 20px 0px #0000004a;
         text-align: center;
 
@@ -16,7 +16,7 @@
         }
         &--link {
                 text-decoration: none;
-                color: black;
+                color: $black-color;
             }
         
 
@@ -30,17 +30,17 @@
 .boton {
     
     padding: 2% 7%;
-    background-color: #e9e8e8;
+    background-color: $button-color;
     border-radius: 2%;
     border-style: none;
     text-decoration: none;
-    color: black;
+    color: $black-color;
     box-shadow: 4px 4px 6px 0px #00000030;
     
   
         &:hover {
-        background-color: #8b8b8b;
-        color: #ffffff;
+        background-color: $button-h-color;
+        color: $white-color;
         transition: 0.3s;
         box-shadow: 4px 4px 6px 0px #00000030;
         }
