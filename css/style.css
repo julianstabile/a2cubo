@@ -154,7 +154,7 @@ header {
 }
 .servicios--home--card--link {
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 .servicios--home--card p {
   text-align: justify;
@@ -166,7 +166,7 @@ header {
   border-radius: 2%;
   border-style: none;
   text-decoration: none;
-  color: black;
+  color: #000000;
   box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.1882352941);
 }
 .boton:hover {
@@ -313,7 +313,7 @@ header {
 }
 .card-img-overlay {
   top: auto;
-  text-shadow: -2px -2px 11px black;
+  text-shadow: -2px -2px 11px #000000;
 }
 .card-body {
   margin: 0;
@@ -331,7 +331,7 @@ header {
 
 .text-bg-dark {
   margin: 5% 5% 0% 5%;
-  background-color: white !important;
+  background-color: #ffffff !important;
 }
 
 .boton-proyectos {
@@ -343,7 +343,7 @@ header {
   border-radius: 2%;
   border-style: none;
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 @media screen and (min-width: 600px) {
@@ -374,7 +374,7 @@ header {
     left: 5%;
     position: absolute;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
   }
   .proyectos--home--pc--card:hover > .proyectos--home--pc--card--parrafo {
     display: block;
@@ -383,7 +383,7 @@ header {
     left: 5%;
     position: absolute;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
   }
   .proyectos--home--pc--card--titulo {
     position: absolute;
@@ -391,7 +391,7 @@ header {
     right: 5%;
     left: 5%;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
     font-weight: bold;
   }
   .proyectos--home--pc--card:hover > .proyectos--home--pc--card--titulo {
@@ -401,7 +401,7 @@ header {
     right: 10%;
     transition: 0.7s;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
     font-weight: bold;
   }
   .boton-proyectos {
@@ -418,16 +418,6 @@ header {
 }
 /*fin proyectos*/
 /*pagina servicios*/
-.boton {
-  padding: 2% 7%;
-  background-color: #e9e8e8;
-  border-radius: 2%;
-  border-style: none;
-  text-decoration: none;
-  color: black;
-  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.1882352941);
-}
-
 .pag-servicios {
   text-align: -webkit-center;
 }
@@ -444,7 +434,7 @@ header {
   padding: 5%;
   margin: 5%;
   display: inline-block;
-  background-color: white;
+  background-color: #ffffff;
   box-shadow: -7px -5px 20px 0px rgba(0, 0, 0, 0.2901960784);
   text-align: justify;
 }
@@ -457,6 +447,7 @@ header {
 }
 .servicios--section--card--link {
   width: 100%;
+  text-align: center;
 }
 
 .imgi {
@@ -597,7 +588,7 @@ label {
   margin-bottom: 3%;
 }
 .nosotros--contenedor {
-  background-color: white;
+  background-color: #ffffff;
   text-align-last: center;
 }
 .nosotros--contenedor--info p {
@@ -713,7 +704,7 @@ label {
 }
 .card-img-overlay {
   top: auto;
-  text-shadow: -2px -2px 11px black;
+  text-shadow: -2px -2px 11px #000000;
 }
 .card-body {
   margin: 0;
@@ -731,7 +722,7 @@ label {
 
 .text-bg-dark {
   margin: 5% 5% 0% 5%;
-  background-color: white !important;
+  background-color: #ffffff !important;
 }
 
 .boton-proyectos {
@@ -743,7 +734,7 @@ label {
   border-radius: 2%;
   border-style: none;
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 @media screen and (min-width: 600px) {
@@ -774,7 +765,7 @@ label {
     left: 5%;
     position: absolute;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
   }
   .proyectos--home--pc--card:hover > .proyectos--home--pc--card--parrafo {
     display: block;
@@ -783,7 +774,7 @@ label {
     left: 5%;
     position: absolute;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
   }
   .proyectos--home--pc--card--titulo {
     position: absolute;
@@ -791,7 +782,7 @@ label {
     right: 5%;
     left: 5%;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
     font-weight: bold;
   }
   .proyectos--home--pc--card:hover > .proyectos--home--pc--card--titulo {
@@ -801,7 +792,7 @@ label {
     right: 10%;
     transition: 0.7s;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
     font-weight: bold;
   }
   .boton-proyectos {
@@ -874,7 +865,7 @@ body {
     left: 5%;
     position: absolute;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
   }
   .proyectos--section--pc--card:hover > .proyectos--section--pc--card--parrafo {
     display: block;
@@ -883,7 +874,7 @@ body {
     left: 5%;
     position: absolute;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
   }
   .proyectos--section--pc--card--titulo {
     position: absolute;
@@ -891,7 +882,7 @@ body {
     right: 5%;
     left: 5%;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
     font-weight: bold;
   }
   .proyectos--section--pc--card:hover > .proyectos--section--pc--card--titulo {
@@ -901,7 +892,7 @@ body {
     right: 10%;
     transition: 0.7s;
     color: #e9e8e8;
-    text-shadow: -2px -2px 11px black;
+    text-shadow: -2px -2px 11px #000000;
     font-weight: bold;
   }
   .boton-proyectos {
