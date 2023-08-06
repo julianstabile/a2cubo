@@ -843,6 +843,7 @@ body {
 
 .proyectos-home-mobile {
   text-align: -webkit-center;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 600px) {
