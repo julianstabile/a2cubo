@@ -17,6 +17,10 @@
     &--contenedor--titulo {
         font-weight: 900;
     }
+
+    &--autor {
+        margin-bottom: 0;
+    }
 }
 
 .footer-li {
@@ -34,6 +38,13 @@
     width: 60px;
     z-index: 1;
     opacity: 75%;
+}
+
+.flecha {
+
+    &--elemento {
+        transform: rotate(275deg);
+    }
 }
 
 @media screen and (min-width: 600px) {
