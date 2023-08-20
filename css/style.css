@@ -171,6 +171,10 @@ header {
   text-align: justify;
 }
 
+.servicios--titulo {
+  margin-top: 40px;
+}
+
 .boton {
   padding: 2% 7%;
   background-color: #e9e8e8;
@@ -188,6 +192,9 @@ header {
 }
 
 @media screen and (min-width: 600px) {
+  .servicios--titulo {
+    margin: 60px 0px 30px 0px;
+  }
   .servicios--home {
     display: flex;
     flex-wrap: wrap;

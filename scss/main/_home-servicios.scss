@@ -27,7 +27,9 @@
     
 }
 
-
+.servicios--titulo {
+    margin-top: 40px;
+}
 
 .boton {
     
@@ -49,7 +51,12 @@
 }
   
   @media screen and (min-width: 600px) {
-   
+
+    
+    .servicios--titulo {
+        margin: 60px 0px 30px 0px;
+    }
+
     .servicios--home {
         @include flex (flex, wrap, center, inherit);
 
