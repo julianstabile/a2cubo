@@ -15,6 +15,10 @@
     height: 70vw;
 }
 
+.carousel-control-next, .carousel-control-prev{
+    z-index: 0;
+}
+
 
 @media screen and (min-width: 961px) {
     .carousel-inner {

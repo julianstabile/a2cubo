@@ -1,6 +1,6 @@
 /*servicios*/
   
-  .servicios--home {
+.servicios--home {
     text-align: center;
 
     &--card {
@@ -26,6 +26,8 @@
     }
     
 }
+
+
 
 .boton {
     
@@ -78,6 +80,10 @@
                 }
             }
         }
+    }
+
+    .btn--servicios {
+        padding: 10% 10%;
     }
 }
   

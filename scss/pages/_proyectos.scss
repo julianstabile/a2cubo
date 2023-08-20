@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+.proyectos--titulo {
+    margin: 60px 0px 30px 0px;
+}
+
 .proyectos--section--pc {
     display: none;
 }
@@ -54,6 +58,10 @@
 
     .proyectos-home-mobile {
         display: none;
+    }
+
+    .proyectos--titulo {
+        margin: 3% 0% 2% 0%;
     }
 
     .proyectos--section--pc {
@@ -130,8 +138,6 @@
     }
 }
 
-/*pagina proyectos*/
-
 .mini-navbar nav ul li {
     display: inline-block;
     margin-top: 7;
@@ -141,7 +147,7 @@
 
 .mini-navbar nav ul {
     list-style: none;
-    margin-left: 7%;
+    padding-left: 0px;
 }
 
 .mini-navbar nav ul li a{
@@ -149,7 +155,9 @@
     color: $white-color;
 }
 
-/*fin pagina proyectos*/
-
+.mini-navbar {
+    text-align: -webkit-center;
+    margin-top: 20px;
+}
 
 /*fin pagina proyectos*/

@@ -32,7 +32,7 @@ label {
 }
 
 .nosotros--historia, .nosotros--contenedor {
-    @include wpm (90%, 5%, 5%);
+    @include wpm (90%, 3%, 3%);
     display: inline-block;
     background-color: $servicios-bg-color;
     box-shadow: -7px -5px 20px 0px #0000004a;
@@ -43,7 +43,6 @@ label {
 
 .nosotros {
     text-align: center;
-    margin-bottom: 3%;
 
     &--contenedor {
         background-color: $white-color;
@@ -71,6 +70,10 @@ label {
 
     &--historia p {
         text-align: justify;
+    }
+
+    &--titulo {
+        padding: 15px 0px;
     }
 }
 
@@ -102,6 +105,10 @@ label {
             width: 100%;
             margin-left: 2%;
         }
+
+        &--titulo {
+            margin: 15px;
+        }
     }
 }
 
@@ -117,6 +124,10 @@ label {
         &--img {
             width: 100%;
         }
+    }
+
+    &--titulo {
+        margin-top: 70px;
     }
 }
 

@@ -133,6 +133,10 @@ header {
   height: 70vw;
 }
 
+.carousel-control-next, .carousel-control-prev {
+  z-index: 0;
+}
+
 @media screen and (min-width: 961px) {
   .carousel-inner {
     height: 65vh;
@@ -213,6 +217,9 @@ header {
   }
   .servicios--home--card--grid h3 {
     align-self: center;
+  }
+  .btn--servicios {
+    padding: 10% 10%;
   }
 }
 /*fin servicios*/
@@ -580,8 +587,8 @@ label {
 
 .nosotros--historia, .nosotros--contenedor {
   width: 90%;
-  padding: 5%;
-  margin: 5%;
+  padding: 3%;
+  margin: 3%;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.4039215686);
   box-shadow: -7px -5px 20px 0px rgba(0, 0, 0, 0.2901960784);
@@ -592,7 +599,6 @@ label {
 
 .nosotros {
   text-align: center;
-  margin-bottom: 3%;
 }
 .nosotros--contenedor {
   background-color: #ffffff;
@@ -615,6 +621,9 @@ label {
 }
 .nosotros--historia p {
   text-align: justify;
+}
+.nosotros--titulo {
+  padding: 15px 0px;
 }
 
 @media screen and (min-width: 600px) {
@@ -641,6 +650,9 @@ label {
     width: 100%;
     margin-left: 2%;
   }
+  .nosotros--titulo {
+    margin: 15px;
+  }
 }
 .premios {
   text-align: center;
@@ -653,6 +665,9 @@ label {
 }
 .premios--contenedor--img {
   width: 100%;
+}
+.premios--titulo {
+  margin-top: 70px;
 }
 
 .estadisticas {
@@ -835,6 +850,10 @@ body {
   text-align: center;
 }
 
+.proyectos--titulo {
+  margin: 60px 0px 30px 0px;
+}
+
 .proyectos--section--pc {
   display: none;
 }
@@ -847,6 +866,9 @@ body {
 @media screen and (min-width: 600px) {
   .proyectos-home-mobile {
     display: none;
+  }
+  .proyectos--titulo {
+    margin: 3% 0% 2% 0%;
   }
   .proyectos--section--pc {
     display: block;
@@ -914,7 +936,6 @@ body {
     transition: 0.3s;
   }
 }
-/*pagina proyectos*/
 .mini-navbar nav ul li {
   display: inline-block;
   margin-top: 7;
@@ -924,7 +945,7 @@ body {
 
 .mini-navbar nav ul {
   list-style: none;
-  margin-left: 7%;
+  padding-left: 0px;
 }
 
 .mini-navbar nav ul li a {
@@ -932,7 +953,11 @@ body {
   color: #ffffff;
 }
 
-/*fin pagina proyectos*/
+.mini-navbar {
+  text-align: -webkit-center;
+  margin-top: 20px;
+}
+
 /*fin pagina proyectos*/
 .prensa {
   display: flex;
@@ -941,7 +966,6 @@ body {
   align-content: inherit;
 }
 .prensa--contenedor {
-  padding: 2%;
   text-align: center;
 }
 .prensa--revista {
@@ -1010,6 +1034,8 @@ body {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.1294117647);
   box-shadow: -7px 0px 20px 0px rgba(0, 0, 0, 0.1882352941);
+  border-radius: 7px;
+  padding: 8px;
 }
 
 .datos--contacto {
@@ -1019,6 +1045,8 @@ body {
   text-decoration: none;
   text-align: center;
   list-style: none;
+  margin: 0%;
+  padding: 0%;
 }
 
 .mapa {
